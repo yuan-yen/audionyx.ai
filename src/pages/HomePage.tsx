@@ -70,6 +70,19 @@ class HomePage extends Component {
         <section className="cta-section">
           <div className="container">
             <div className="cta-buttons">
+
+              <div className="cta-item">
+                <Link to="/technology">
+                  <Button 
+                    variant="secondary"
+                    className="cta-button"
+                  >
+                    Learn more
+                  </Button>
+                </Link>
+                <p className="cta-description">Discover our technology</p>
+              </div>
+
               <div className="cta-item">
                 <Button 
                   variant="primary" 
@@ -82,22 +95,12 @@ class HomePage extends Component {
                     alt="AOWL" 
                     className="button-logo"
                   />
-                  <span>Login AOWL<br /> and protect your audio</span>
+                  <span>Login AOWL and<br /> start protect your audio</span>
                 </Button>
                 <p className="cta-description">Experience AOWL technology</p>
               </div>
               
-              <div className="cta-item">
-                <Link to="/technology">
-                  <Button 
-                    variant="secondary"
-                    className="cta-button"
-                  >
-                    Learn more
-                  </Button>
-                </Link>
-                <p className="cta-description">Discover our technology</p>
-              </div>
+
             </div>
           </div>
         </section>
