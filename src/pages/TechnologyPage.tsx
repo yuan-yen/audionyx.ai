@@ -35,7 +35,8 @@ class TechnologyPage extends Component {
           <div className="container">
             <h1 className="page-title">Our Technology</h1>
             <p className="page-subtitle">
-              Cutting-edge audio protection powered by advanced watermarking algorithms
+              The idea is simple but only Audionyx can do it.<br/>
+              Our cutting-edge audio protection service is powered by advanced watermarking algorithm.
             </p>
           </div>
         </section>

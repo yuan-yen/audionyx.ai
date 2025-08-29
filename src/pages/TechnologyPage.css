@@ -9,7 +9,7 @@
 }
 
 .page-title {
-  font-size: 3rem;
+  font-size: 3.8rem;
   font-weight: 700;
   margin-bottom: 1rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -19,7 +19,7 @@
 }
 
 .page-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: var(--text-secondary);
   max-width: 600px;
   margin: 0 auto;
@@ -89,13 +89,13 @@
 .tech-title {
   color: var(--text-primary);
   margin-bottom: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 .tech-info {
   color: var(--text-secondary);
   line-height: 1.8;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .tech-details {
@@ -106,7 +106,7 @@
 
 .detail-section h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 3rem;
   color: var(--text-primary);
 }
@@ -149,18 +149,18 @@
 .workflow-step h3 {
   color: var(--text-primary);
   margin-bottom: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .workflow-step p {
   color: var(--text-secondary);
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   line-height: 1.6;
 }
 
 @media (max-width: 768px) {
   .page-title {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
   }
   
   .workflow {
@@ -195,6 +195,6 @@
 }
 
 .tech-cta-description {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: var(--text-secondary);
 }

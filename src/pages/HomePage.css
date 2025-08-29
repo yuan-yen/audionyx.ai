@@ -9,7 +9,7 @@
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -20,7 +20,7 @@
 }
 
 .hero-subtitle {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: var(--text-secondary);
   max-width: 800px;
   margin: 0 auto;
@@ -76,7 +76,7 @@
 }
 
 .highlight-title {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1.5rem;
@@ -87,7 +87,7 @@
 }
 
 .highlight-text {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: var(--text-primary);
   text-align: center;
   margin-bottom: 2.5rem;
@@ -134,7 +134,7 @@
 .benefit-text {
   color: var(--text-primary);
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .features-section {
@@ -187,12 +187,13 @@
 .feature-card h2 {
   color: var(--text-primary);
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .feature-card p {
   color: var(--text-secondary);
   line-height: 1.7;
+  font-size: 1.1rem;
 }
 
 .cta-section {
@@ -224,25 +225,25 @@
 }
 
 .cta-description {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: var(--text-secondary);
 }
 
 @media (max-width: 768px) {
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   
   .hero-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   
   .highlight-title {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   
   .highlight-text {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   
   .highlight-card {
