@@ -215,7 +215,12 @@
 }
 
 .cta-button {
-  min-width: 200px;
+  min-width: 300px;
+  min-height: 100px;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.4;
+  padding: 1rem 1.5rem;
 }
 
 .cta-description {
