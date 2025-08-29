@@ -4,12 +4,14 @@ import HomePage from './pages/HomePage';
 import TechnologyPage from './pages/TechnologyPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <Router>
+        <ScrollToTop />
         <div className="app">
           <Header />
           <main className="main-content">

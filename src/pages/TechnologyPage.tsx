@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TryItSection from '../components/TryItSection';
 import './TechnologyPage.css';
 
 interface TechFeature {
@@ -76,6 +77,8 @@ class TechnologyPage extends Component {
             </div>
           </div>
         </section>
+
+        <TryItSection />
       </div>
     );
   }
