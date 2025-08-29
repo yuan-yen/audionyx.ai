@@ -82,7 +82,7 @@ class HomePage extends Component {
                     alt="AOWL" 
                     className="button-logo"
                   />
-                  <span>Sign up / Login<br /> and protect your audio</span>
+                  <span>Login AOWL<br /> and protect your audio</span>
                 </Button>
                 <p className="cta-description">Experience AOWL technology</p>
               </div>

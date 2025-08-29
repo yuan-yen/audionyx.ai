@@ -53,7 +53,8 @@
   font-weight: 500;
   transition: all 0.3s ease;
   position: relative;
-  padding: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
 }
 
 .nav-link::after {
@@ -72,6 +73,15 @@
 }
 
 .nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--text-primary);
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+}
+
+.nav-link.active::after {
   width: 100%;
 }
 

@@ -9,22 +9,6 @@ class TryItSection extends Component {
           <h2 className="try-it-title">Try it!</h2>
           
           <div className="try-it-content">
-            <div className="audio-section">
-              <h3>Demo Audio</h3>
-              <audio controls className="audio-player">
-                <source src="/audio/AOWL_Introduction - watermarked.mp3" type="audio/mpeg" />
-                Your browser does not support the audio element.
-              </audio>
-            </div>
-
-            <div className="qr-section">
-              <img 
-                src="/images/aowl_qr_with_logo.png" 
-                alt="AOWL QR Code" 
-                className="qr-code"
-              />
-            </div>
-
             <div className="instructions-section">
               <h3>How to Test</h3>
               <ol className="instructions-list">
@@ -34,6 +18,23 @@ class TryItSection extends Component {
                 <li>Play the demo audio, and bring your phone close to the speaker</li>
               </ol>
             </div>
+            <div className="qr-section">
+              <img 
+                src="/images/aowl_qr_with_logo.png" 
+                alt="AOWL QR Code" 
+                className="qr-code"
+              />
+            </div>
+
+            <div className="audio-section">
+              <h3>Demo Audio</h3>
+              <audio controls className="audio-player">
+                <source src="/audio/AOWL_Introduction - watermarked.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
+
           </div>
         </div>
       </section>

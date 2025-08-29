@@ -1,7 +1,23 @@
 import React, { Component } from 'react';
 import './Footer.css';
 
-class Footer extends Component {
+interface FooterState {
+  copied: boolean;
+}
+
+class Footer extends Component<{}, FooterState> {
+  state: FooterState = {
+    copied: false
+  };
+
+  copyEmail = () => {
+    navigator.clipboard.writeText('info@audionyx.ai');
+    this.setState({ copied: true });
+    setTimeout(() => {
+      this.setState({ copied: false });
+    }, 2000);
+  };
+
   render() {
     const currentYear = new Date().getFullYear();
     
@@ -15,7 +31,15 @@ class Footer extends Component {
             </div>
             <div className="footer-section">
               <h4>Contact</h4>
-              <p>info@audionyx.ai</p>
+              <button 
+                type="button"
+                className="email-button"
+                onClick={this.copyEmail}
+                title="Click to copy email address"
+              >
+                info@audionyx.ai
+                {this.state.copied && <span className="copied-tooltip">Copied!</span>}
+              </button>
             </div>
           </div>
           <div className="footer-bottom">
