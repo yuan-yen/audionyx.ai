@@ -9,7 +9,7 @@ class HomePage extends Component {
       <div className="home-page">
         <section className="hero-section">
           <div className="container">
-            <h1 className="hero-title">Protect Your Voice in the Digital Age</h1>
+            <h1 className="hero-title">Protect Your Voice in the GenAI Era</h1>
             <p className="hero-subtitle">
               Today, just seconds of your voice are enough for GenAI to clone it and make you say anything. 
               We safeguard your most valuable asset — your voice — with cutting-edge audio protection technology.
