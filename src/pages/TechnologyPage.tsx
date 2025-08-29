@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TryItSection from '../components/TryItSection';
+import Button from '../components/Button';
 import './TechnologyPage.css';
 
 interface TechFeature {
@@ -79,6 +80,27 @@ class TechnologyPage extends Component {
         </section>
 
         <TryItSection />
+
+        <section className="tech-cta-section">
+          <div className="container">
+            <div className="tech-cta-content">
+              <Button 
+                variant="primary" 
+                href="https://aowl.app" 
+                external={true}
+                className="tech-cta-button"
+              >
+                <img 
+                  src="/images/aowl-logo.003.png" 
+                  alt="AOWL" 
+                  className="button-logo"
+                />
+                <span>Sign up / Login<br /> and protect your audio</span>
+              </Button>
+              <p className="tech-cta-description">Start watermarking your audio content now</p>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }
